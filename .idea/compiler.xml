@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis" />
+        <module name="redis-spring-boot" />
+        <module name="redis-springboot" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="redis-springboot" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

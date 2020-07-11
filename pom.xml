@@ -6,7 +6,11 @@
 
     <groupId>com.oldwang</groupId>
     <artifactId>redis</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>redis-spring-boot</module>
+    </modules>
 
 
     <dependencies>
